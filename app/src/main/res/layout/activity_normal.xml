@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="This is Normal Acitivity" />
+
+    <Button
+        android:id="@+id/get_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示文本框的内容"/>
+
+    <EditText
+        android:id="@+id/input_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/icon_iv"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lx2"/>
+
+    <Button
+        android:id="@+id/switch_icon_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换头像"/>
+
+    <ProgressBar
+        android:max="100"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/show_hide_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示或隐藏progressBar"/>
+
+    <Button
+        android:id="@+id/show_download_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示下载进度"/>
+
+    <Button
+        android:id="@+id/show_alterDialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示AlterDialog对话框"/>
+
+    <Button
+        android:id="@+id/show_progressDialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示ProgressDialog对话框"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入用户名"/>
+        <!--<Button-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="发送"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送"/>
+    </LinearLayout>
+
+
+</LinearLayout>

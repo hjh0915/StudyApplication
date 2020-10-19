@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <Button
+            android:text="登录"
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="注册"
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/jump_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转"
+            android:textAllCaps="false"
+            android:textColor="#ff0000"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/hide_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到注册页面" />
+
+        <Button
+            android:id="@+id/baidu_btn"
+            android:text="跳转到百度页面"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/dail_btn"
+            android:text="跳转到拨号页面"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到下一个页面为了返回数据" />
+
+        <Button
+            android:id="@+id/start_normal_btn"
+            android:text="start Normal Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/start_dialog_btn"
+            android:text="start Dialog Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/show_return_data"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="显示返回数据" />
+
+        <Button
+            android:id="@+id/start_relative_btn"
+            android:text="start Dialog Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/start_QQLogin_btn"
+            android:text="QQ登录"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/start_listview_btn"
+            android:text="ListView学习"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>
